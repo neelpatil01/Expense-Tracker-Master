@@ -282,7 +282,7 @@ class Ui_MainWindow(object):
         self.expense_lbl.setText(_translate("MainWindow", "Expense:"))
         self.balance_lbl.setText(_translate("MainWindow", "Balance:"))
         self.menuFile.setTitle(_translate("MainWindow", "File"))
-        self.menuReport.setTitle(_translate("MainWindow", "Report"))
+        #self.menuReport.setTitle(_translate("MainWindow", "Report"))
         self.actionSave.setText(_translate("MainWindow", "Save"))
         self.actionSave.setShortcut(_translate("MainWindow", "Ctrl+S"))
         self.actionAdd_Balance.setText(_translate("MainWindow", "Add Budget"))
@@ -306,4 +306,4 @@ if __name__ == "__main__":
     ui.setupUi(MainWindow)
     MainWindow.show()
     sys.exit(app.exec_())
-
+#testing pr
